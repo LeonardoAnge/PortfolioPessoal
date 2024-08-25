@@ -1,0 +1,64 @@
+/*borda e cor da lista dos links internos*/
+li {
+    width: 15%;
+    font: bold 1.3em sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: 6px outset rgb(172, 120, 24);
+    text-align: center;
+    background: black;
+}
+/*fiz um class para muda a cor do paragrafo do porftólio apenas*/
+.black{ color: black;}
+/*muda a cor dos paragrafos e deixa centralizado*/
+p {color: white;
+  text-align: center;}
+/*mudar cor do titulo e deixa centralizado*/
+h1 {text-align: center;
+    color: orange}
+
+h2{text-align: center;}
+
+/*deixando a lista de links centralizados e sem os pontos*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+/*Mudando a cor da e o tamanho da lista de links*/
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration:none ;
+    }
+/*hover para quando colocar o mouse em cima mudar de cor*/    
+li a:hover {
+    color: orange;
+}
+/*fundo da página*/
+body {
+    background-color: orange;
+}
+/*para deixar o titulo h1 sublinhado*/
+h1 {
+    border-bottom: 2px outset orange;
+}
+/*uma class chamada container*/
+.container {
+    color: orange;
+    background-color: black;
+    padding: 15px;
+    border: 5px outset rgb(172, 120, 24);
+}
+/*uma class chamada formulario*/
+.formulario { color: black;
+    background-color: white;
+    padding: 15px;
+    border: 6px outset rgb(172, 120, 24);
+}
+/*aumenta o tamanho da letra do paragrafo*/
+p {font-size: x-large;}
+
